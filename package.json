@@ -98,6 +98,10 @@
   "peerDependencies": {
     "winston": ">=1.x"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lixuelin/express-winston-lxl.git"
+  },
   "scripts": {
     "test": "mocha --reporter spec",
     "test-coverage": "mocha --require blanket --reporter html-cov > coverage.html || true",
